@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <style>
+      nav div {
+        padding: 6px;
+        margin: 4px;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: cyan;
+        color: white;
+      }
+      .topnavright {
+        float: right;
+      }
+      .tshirt {
+        width: 200px;
+        height: 200px;
+        padding: 15px;
+      }
+      .hoodie {
+        width: 200px;
+        height: 200px;
+        padding: 15px;
+      }
+      .shop {
+        display: flex;
+        flex-direction: row;
+      }
+      .hoodieimg {
+        width: 40%;
+
+        padding: 10px;
+      }
+      .hoodiedetail {
+        display: flex;
+        flex-direction: row;
+      }
+      .hoodietxt {
+        padding: 10px;
+        width: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="index.html">Shop</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="patreon.html">Support Me</a>
+      <div class="topnavright">
+        <a
+          href="https://www.youtube.com/channel/UCL7amu5uS2SzmyNzURmGPRg"
+          target="_blank"
+          >My YouTube</a
+        >
+      </div>
+    </div>
+    <div class="hoodiedetail">
+      <div class="hoodieimg" style="border: 2px solid black">
+        <center>
+          <img src="images/hoodie.png" alt="" style="width: 750px" />
+        </center>
+      </div>
+      <div class="hoodietxt">
+        <h1>Hoodie</h1>
+        <p>
+          A comfortable and warm hoodie to help you get through winter in
+          comfort and style!
+        </p>
+        <a href="hoodiebuy.html"><button>Buy</button></a>
+      </div>
+    </div>
+  </body>
+</html>
